@@ -4,6 +4,10 @@ body {
     padding: 0;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .barra-de-topo {
     background-color: #ff6B28;
     padding: 15px;
@@ -24,6 +28,48 @@ body {
     margin-top: 100px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: #ff6B28;
+}
+
+.cartao {
+    padding: 70px 100px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.cartao:hover {
+    box-shadow: 8px 8px 15px 12px rgba(205, 205, 205, 0.25);
+}
+
+.ingredientes {
+    cursor: url("./images/cursor_ingredientes.png"), auto;
+}
+
+.preparo {
+    cursor: url("./images/cursor_preparo.png"), auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.botao-comprar {
+    background-color: #ff6B28;
+    padding: 16px;
+    border-radius: 20px;
+    color: white;
+}
+
+li {
+    margin-bottom: 14px;
+}
+
+.lista-ingredientes {
+    margin-bottom: 50px;
 }
