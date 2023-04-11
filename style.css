@@ -44,7 +44,7 @@ h6 {
 }
 
 .cartao:hover {
-    box-shadow: 8px 8px 15px 12px rgba(205, 205, 205, 0.25);
+    box-shadow: 8px 8px 15px 12px rgba(65, 53, 53, 0.25);
 }
 
 .ingredientes {
@@ -55,15 +55,32 @@ h6 {
     cursor: url("./images/cursor_preparo.png"), auto;
 }
 
+.instrucoes {
+    cursor: url("./images/cursor_instrucoes.png"), auto;
+}
+
 a {
     text-decoration: none;
 }
 
-.botao-comprar {
-    background-color: #ff6B28;
-    padding: 16px;
-    border-radius: 20px;
+#recipe2basketbtn {
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #ff6a28;
     color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 25px;
+    font-size: 20px;
+    min-height: 40px;
+    min-width: 250px;
+    line-height: 1.3;
+    cursor: pointer;
+}
+
+.btn {
+    width: 25px;
 }
 
 li {
@@ -72,4 +89,27 @@ li {
 
 .lista-ingredientes {
     margin-bottom: 50px;
+}
+
+p,
+li {
+    line-height: 28px;
+}
+
+.rodape {
+    background-color: #ff6B28;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.rodape-texto {
+    max-width: 500px;
+    margin: auto;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.text-white {
+    color: white;
 }
