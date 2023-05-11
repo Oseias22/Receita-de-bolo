@@ -1,3 +1,3 @@
 # Receita-de-bolo
 
-Praticando html e css.
+Nesse projeto irei criar uma página de receitas de bolo para praticar, utilizando html e css.
