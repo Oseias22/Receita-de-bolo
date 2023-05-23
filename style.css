@@ -95,8 +95,8 @@ a {
     border-radius: 20px;
     padding: 8px 25px;
     font-size: 20px;
-    min-height: 40px;
-    min-width: 250px;
+    min-height: 0px;
+    min-width: 0px;
     line-height: 1.3;
     cursor: pointer;
 }
